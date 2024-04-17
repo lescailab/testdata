@@ -31,32 +31,40 @@
 
 
 
+## Test 2
 
-                                                                  ###TEST2###
-raw initial files:
-test02_raw_R1.fastq.gz
-test02_raw_R2.fastq.gz
+### raw initial files: 
 
-flash output files: 
-test02_flash_merged.fastq.gz
+- test02_raw_R1.fastq.gz
+- test02_raw_R2.fastq.gz
 
-rename output files: 
-test02_renamed.fastq.gz
+### flash output files: 
 
-nanotranslate output files:
-test02_aa.fasta
+- test02_flash_merged.fastq.gz
 
-cdHIT clustering output:
-test2.aa.clusters.clstr
-&
-test02_aa.clusters          <------------ getCDR3 output:
-                                          test01_cdr3.fasta
+### rename output files: 
+
+- test02_renamed.fastq.gz
+
+### nanotranslate output files:
+
+- test02_aa.fasta
+
+### cdHIT clustering output:
+
+- test2.aa.clusters.clstr
+- test02_aa.clusters 
+
+### getCDR3 output
+
+- input: test02_aa.clusters
+- test01_cdr3.fasta
 
 
 
 
 
-Notes: 
-test_samples.tsv ( tsv files of fastq files initial path)
-adapters.fa (adapters added) 
+### Notes: 
+- test_samples.tsv ( tsv files of fastq files initial path)
+- adapters.fa (adapters added) 
 
