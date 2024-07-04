@@ -24,10 +24,15 @@
 - test1.aa.clusters.clstr
 - test01_aa.clusters
 
+### readcdhit summary output
+- test1_clusters.summary
+
 ### getCDR3 output:
 
 - input: test01_aa.clusters
 - output: test01_cdr3.fasta
+
+
 
 
 
@@ -53,8 +58,11 @@
 ### cdHIT clustering output:
 
 - test2.aa.clusters.clstr
-- test02_aa.clusters 
-
+- test02_aa.clusters
+  
+### readcdhit summary output
+- test1_clusters.summary
+  
 ### getCDR3 output
 
 - input: test02_aa.clusters
